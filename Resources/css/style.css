@@ -6,7 +6,7 @@
 
 html {
     background-color: #fff;
-    color: #888;
+    color: #555;
     font-family: 'lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -34,5 +34,33 @@ header {
 }
 
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:ivory;
+    font-size:240%;
+    font-weight: 320;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-shadow:rgb(196, 49, 38) 2px 2px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10%;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.btn-full {
+    background-color: #e67e22;
+    border: #e67e22;
+}
+
+.btn-ghost {
+    border: 1px solid #e67e22;
+    color: #e67e22;
 }
