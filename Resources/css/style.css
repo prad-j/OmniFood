@@ -42,7 +42,7 @@ h1 {
     text-transform:uppercase;
     letter-spacing: 1px;
     word-spacing: 4px;
-    text-shadow:rgb(196, 49, 38) 2px 2px;
+    text-shadow:rgb(22, 3, 1) 1px 1px;
 }
 
 .btn:link,
@@ -53,8 +53,9 @@ h1 {
     text-decoration: none;
     border: 1px, solid #e67e22;
     border-radius: 100px;
-    color: #fff;
+    color:ivory;
     margin-right: 20px;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
 }
 
 
@@ -62,6 +63,7 @@ h1 {
 .btn-full:link,
 .btn-full:visited {
     background-color: #e67e22;
+    border: 1px solid #e67e22;
 }
 
 
@@ -74,4 +76,15 @@ h1 {
 .btn:hover,
 .btn:active {
     background-color:#924d10;
+    border: 1px solid #924d10;
 }
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #924d10;
+    color:ivory;
+}
+
+
+
+
