@@ -51,8 +51,21 @@ h1 {
 
 h2 {
     font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 4%;
 }
 
+h2:after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 350px;
+    background-color: #e67e22;
+    margin: 20px 0 0 380px;
+    
+    
+}
 
 /*------------------------------------------------------------
   HEADER
