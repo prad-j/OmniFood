@@ -30,11 +30,17 @@ section {
     padding: 7% 0;
 }
 
+.box {
+    padding: 3px;
+    text-align: left;
+}
+
 /*------------------------------------------------------------
   HEADINGS
 /*------------------------------------------------------------*/
 h1,
-h2 {
+h2,
+h3 {
     font-weight: 320;
     text-transform:uppercase;
     letter-spacing: 1px;
@@ -53,19 +59,25 @@ h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
 
 h2:after{
     display: block;
     content: "";
     height: 2px;
-    width: 350px;
+    width: 300px;
     background-color: #e67e22;
-    margin: 20px 0 0 380px;
-    
-    
+    margin: 15px 0 0 410px;
 }
+
+h3 {
+    font-size: 115%;
+    font-weight: 400;
+    padding-bottom: 7%;
+    text-align: center;
+}
+
 
 /*------------------------------------------------------------
   HEADER
@@ -171,6 +183,39 @@ header {
 
 .box ion-icon {
     font-size: 250%;
+    padding-bottom: 10%;
+    padding-left: 35%;
 }
 
+.calendar {
+    color:rgb(68, 29, 207);
+}
 
+.alarm {
+    color: rgb(219, 37, 219);
+}
+
+.leaf {
+    color: green;
+}
+
+.cart {
+    color:#e67e22;
+}
+
+/*------------------------------------------------------------
+  PARAGRAPH IN FEATURES SECTION
+/*------------------------------------------------------------*/
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.box p {
+     font-size: 90%;
+     line-height: 145%;
+}
