@@ -228,6 +228,10 @@ header {
   MEALS SECTION
 ------------------------------------------------------------*/
 
+.section-meals {
+    padding: ;
+}
+
 .meals-showcase {
     list-style: none;
     width: 100%;
