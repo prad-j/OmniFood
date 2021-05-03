@@ -331,3 +331,81 @@ header {
     height: 50px;
     width: auto;
 }
+
+.cities{
+    
+}
+
+.citiclass{
+    margin: 0 100px 0 100px;
+    overflow: hidden;
+}
+.simg{
+    max-width: 100%;
+    height: auto;
+}
+
+.sicon {
+    max-width: 20px;
+    height: auto;
+}
+.citides{
+    line-height: 145%;
+    margin-top: 1px;
+}
+.citides h3{
+    padding-top: 2px;   
+}
+
+/*------------------------------------------------------------
+ CITIES
+------------------------------------------------------------*/
+
+.section-cities {
+    
+}
+
+
+.city-det {
+    float: left;
+    width: 23%;
+    height: auto;
+    margin-right: 2%;
+}
+
+.city-img {
+    overflow: hidden;
+}
+
+.city-img img {
+    width: 100%;
+    height: auto;
+
+}
+
+.section-cities h2 {
+    padding-bottom: 7%;
+}
+
+.city-name h3 {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.num-sub {
+    color: #e67e22;
+}
+
+.chef-star {
+    color: #c525b8;
+}
+
+.twi-icon {
+    color: blue;
+}
+
+.city-growth {
+    font-size: 95%;
+    padding-left: 10%;
+}
