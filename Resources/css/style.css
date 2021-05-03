@@ -373,10 +373,6 @@ header {
     margin-right: 2%;
 }
 
-.city-img {
-    overflow: hidden;
-}
-
 .city-img img {
     width: 100%;
     height: auto;
