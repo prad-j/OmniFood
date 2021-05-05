@@ -367,6 +367,7 @@ header {
 
 
 .city-det {
+    display: block;
     float: left;
     width: 23%;
     height: auto;
