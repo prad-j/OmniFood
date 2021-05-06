@@ -442,3 +442,39 @@ header {
     TESTIMONIAL
 ------------------------------------------------------------*/
 
+.section-testimonials{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote{
+    padding: 2%; 
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before{
+    display: block;
+    content: "\201C";
+    font-size: 400%;
+    position:absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite{
+    display: block;
+    font-size: 90%;
+    margin-top: 25px;
+}
+
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 4%;
+    vertical-align: middle;
+}
