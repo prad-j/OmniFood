@@ -422,3 +422,18 @@ header {
     padding-bottom: 1%;
     padding-right: 2%;
 }
+
+.twitter-social a:link,
+.twitter-social a:visited {
+    color: rgb(68, 29, 207);
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(68, 29, 207);
+    transition-duration: 300ms;
+}
+
+.twitter-social a:hover,
+.twitter-social a:active{
+    color: #e67e22;
+    border-bottom: 1px solid transparent;
+}
