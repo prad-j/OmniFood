@@ -389,38 +389,38 @@ header {
     padding-bottom: 2%;
 }
 
-.chef-star {
-    color: rgb(255, 215, 0);
-}
-
 .city-growth {
     font-size: 95%;
     text-align: left;
     padding-left: 5%;
 }
 
-.sub-incity {
+.chef-city{
     padding-bottom: 1%;
 }
+
+.twitter-social{
+    padding-bottom: 1%;
+}
+
 
 .num-sub {
     color: #e67e22;
     vertical-align: middle;
     padding-bottom: 1%;
-    padding-right: 2%;
+    padding-right:4%;
 }
 
-.chef-city {
-    padding-bottom: 1%;
-    vertical-align: middle;
-    padding-right: 2%;
+.chef-star {
+    color: #e67e22;
+    padding-right:4%;
 }
 
 .twi-icon {
-    color: blue;
+    color: #e67e22;
     vertical-align: middle;
     padding-bottom: 1%;
-    padding-right: 2%;
+    padding-right: 4%;
 }
 
 .twitter-social a:link,
