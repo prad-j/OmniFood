@@ -389,27 +389,36 @@ header {
     padding-bottom: 2%;
 }
 
-.num-sub {
-    color: #e67e22;
-}
-
 .chef-star {
     color: rgb(255, 215, 0);
 }
 
-.twi-icon {
-    color: blue;
-}
-
 .city-growth {
     font-size: 95%;
-    text-align: center;
+    text-align: left;
+    padding-left: 5%;
 }
 
 .sub-incity {
     padding-bottom: 1%;
 }
 
+.num-sub {
+    color: #e67e22;
+    vertical-align: middle;
+    padding-bottom: 1%;
+    padding-right: 2%;
+}
+
 .chef-city {
     padding-bottom: 1%;
+    vertical-align: middle;
+    padding-right: 2%;
+}
+
+.twi-icon {
+    color: blue;
+    vertical-align: middle;
+    padding-bottom: 1%;
+    padding-right: 2%;
 }
