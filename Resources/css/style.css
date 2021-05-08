@@ -492,17 +492,19 @@ cite img{
     border-radius: 8%;
     width: 90%;
     margin: 5%;
-}
-
-.plan-box div:last-child {
-    text-align: center;
-    border:none;
+    box-shadow: 5px 5px 10px rgb(255, 180, 180);
 }
 
 .plan-box div:first-child{
     background-color: rgb(250, 250, 250) ;
     border-top-left-radius: 8%;
     border-top-right-radius: 8%;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border:none;
+    padding-left: 10%;
 }
 
 .plan-box h3 {
@@ -540,4 +542,8 @@ cite img{
  
 .plan-box ul li ion-icon {
    font-size: 70%;
+}
+
+.plan-box ul li span {
+    text-decoration: line-through;
 }
