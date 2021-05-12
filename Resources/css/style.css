@@ -589,7 +589,7 @@ input[type=checkbox]{
 .insta-footer,
 .pint-footer {
     font-size: 150%;
-    color: rgb(212, 39, 9);
+    color: rgb(223, 57, 27);
     transition-property: color;
     transition-duration: 500ms;
 }
