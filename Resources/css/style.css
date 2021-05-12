@@ -577,3 +577,35 @@ input[type=checkbox]{
 }
 
 *:focus{outline: none;}
+
+/*----------------------------------------------
+  FOOTER
+------------------------------------------------*/
+
+
+
+.facebook-footer,
+.twitter-footer,
+.insta-footer,
+.pint-footer {
+    font-size: 150%;
+    color: rgb(212, 39, 9);
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+.facebook-footer:hover,
+.facebook-footer:active,
+.twitter-footer:hover,
+.twitter-footer:active,
+.insta-footer:hover,
+.insta-footer:active,
+.pint-footer:hover,
+.insta-footer:active {
+    color:rgb(69, 10, 165);
+    
+}
+
+footer ul{
+    list-style: none;
+}
