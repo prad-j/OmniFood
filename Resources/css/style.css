@@ -558,10 +558,6 @@ cite img{
  CONTACT FORM
  ------------------------------------------------------*/
 
-.section-form{
-
-}
-
 .contact-form{
     width: 70%;
     margin: 0 auto;
@@ -578,5 +574,11 @@ textarea{
 }
 
 textarea{
-    height: 120px;
+    height: 100px;
 }
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+
+*:focus{outline: none;}
