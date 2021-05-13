@@ -583,7 +583,8 @@ input[type=checkbox]{
 ------------------------------------------------*/
 
 footer{
-    background-color: rgb(243, 242, 242);
+    background-color: rgb(20, 20, 20);
+    padding: 2%;
 }
 
 .footer-nav {
@@ -594,17 +595,65 @@ footer{
 .social-links {
     list-style: none;
     float: right;
-    margin-left: 300px;
+    font-size: 150%;
+}
+
+.social-links li a {
+    padding-left: 25px;
 }
 
 .footer-nav li,
 .social-links li{
     display: inline-block;
     margin-right: 20px;
-    color: rgb(27, 24, 9);
 }
 
 .footer-nav li:last-child,
 .social-links li:last-child {
     margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: none;
+    color: rgb(110, 110, 110);
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    border-bottom: 1px solid rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
+}
+
+.facebook-footer:hover,
+.facebook-footer:active{
+    color: rgb(59, 89, 152);
+}
+
+.twitter-footer:hover,
+.twitter-footer:active{
+    color: rgb(85, 172, 238);
+}
+
+.insta-footer:hover,
+.insta-footer:active{
+    color: rgb(233, 89, 80);
+}
+
+.pint-footer:hover,
+.pint-footer:active{
+    color: rgb(203, 32, 39);
+}
+
+
+footer p {
+    font-size: 90%;
+    text-align: center;
+    color: rgb(110, 110, 110);
+    /*padding: 1% 0 3% 0;*/
 }
