@@ -582,30 +582,29 @@ input[type=checkbox]{
   FOOTER
 ------------------------------------------------*/
 
-
-
-.facebook-footer,
-.twitter-footer,
-.insta-footer,
-.pint-footer {
-    font-size: 150%;
-    color: rgb(223, 57, 27);
-    transition-property: color;
-    transition-duration: 500ms;
+footer{
+    background-color: rgb(243, 242, 242);
 }
 
-.facebook-footer:hover,
-.facebook-footer:active,
-.twitter-footer:hover,
-.twitter-footer:active,
-.insta-footer:hover,
-.insta-footer:active,
-.pint-footer:hover,
-.insta-footer:active {
-    color:rgb(69, 10, 165);
-    
-}
-
-footer ul{
+.footer-nav {
     list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+    margin-left: 300px;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+    color: rgb(27, 24, 9);
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
 }
