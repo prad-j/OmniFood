@@ -34,6 +34,40 @@
         background-color: green;
         margin: 2% 0 0 29%;
     }
+
+    .steps-box{margin-top: 10px;}
+    .steps-box:last-child{
+        margin-top: 10px; 
+        padding-left: 0%;
+        }
+    .work-steps{margin-bottom: 40px;}
+    .work-steps{padding-left: 0px;};
+    .work-steps:last-of-type{margin-bottom: 60px;}
+
+    .work-steps p {font-size: 90%;}
+
+    .btn-app img {
+        height: 35px;
+        width: auto;
+    }
+
+    .num-sub {
+        vertical-align: middle;
+        padding-bottom: 1%;
+        padding-right:0%;
+    }
+    .chef-star {
+        padding-right:0%;
+    }
+    
+    .twi-icon {
+        vertical-align: middle;
+        padding-bottom: 1%;
+        padding-right: 0%;
+    }
+
+    .section-cities {font-size: 90%;}
+
 }
 
 /*-----------------------------------------------------------------------------------

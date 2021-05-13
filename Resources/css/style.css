@@ -338,31 +338,6 @@ input[type=submit]:active {
     width: auto;
 }
 
-.cities{
-    
-}
-
-.citiclass{
-    margin: 0 100px 0 100px;
-    overflow: hidden;
-}
-.simg{
-    max-width: 100%;
-    height: auto;
-}
-
-.sicon {
-    max-width: 20px;
-    height: auto;
-}
-.citides{
-    line-height: 145%;
-    margin-top: 1px;
-}
-.citides h3{
-    padding-top: 2px;   
-}
-
 /*------------------------------------------------------------
  CURRENT CITIES
 ------------------------------------------------------------*/
