@@ -583,8 +583,9 @@ input[type=checkbox]{
 ------------------------------------------------*/
 
 footer{
+    font-size: 80%;
     background-color: rgb(20, 20, 20);
-    padding: 2%;
+    padding: 1% 0 2% 0;
 }
 
 .footer-nav {
@@ -630,6 +631,14 @@ footer{
     color: rgb(200, 200, 200);
 }
 
+.facebook-footer,
+.twitter-footer,
+.insta-footer,
+.pint-footer {
+    transition-property: color;
+    transition-duration: 300ms;
+}
+
 .facebook-footer:hover,
 .facebook-footer:active{
     color: rgb(59, 89, 152);
@@ -652,8 +661,6 @@ footer{
 
 
 footer p {
-    font-size: 90%;
     text-align: center;
     color: rgb(110, 110, 110);
-    /*padding: 1% 0 3% 0;*/
 }
