@@ -68,6 +68,30 @@
 
     .section-cities {font-size: 90%;}
 
+    .plan-box {
+        width: 100%;
+        margin: 0;
+    }
+
+    .plan-price {
+        font-size: 200%;
+        font-weight: 300;
+    }
+
+    .plan-price span{
+        font-size: 50%;
+        font-weight: 300;
+    }
+
+    .plan-box ul li {
+        font-size: 90%;
+    }
+
+    .contact-form{
+        width: 80%;
+        margin: 0 auto;
+    }
+
 }
 
 /*-----------------------------------------------------------------------------------
