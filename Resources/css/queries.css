@@ -156,8 +156,8 @@
     }
 
     .work-steps p{
-        padding-top: 5px;
-        font-size: 70%;
+        padding-top: 4px;
+        font-size: 85%;
         font-weight: 400;
     }
 
@@ -186,6 +186,62 @@
         margin-bottom: 5%;
     }
 
+    .steps-box a{
+        padding-left: 50px;
+    }
+
+    .city-name h3 {
+        padding-top: 2%;
+    }
+
+    .city-growth {
+        text-align: center;
+    }
+
+    .section-testimonials h2 {
+        font-size: 110%;
+    }
+
+    blockquote{
+        font-size: 95%;
+        line-height: 100%;
+        margin-top: 10px;
+    }
+
+    blockquote:before{
+        font-size: 250%;
+    }
+
+    cite{
+        font-size: 80%;
+        margin-top: 5px;
+    }
+
+    .plan-box {
+        width: 70%;
+        margin-left: 15%;
+
+    }
+
+    .plan-price {
+        text-align: center;
+        font-size: 200%;
+        margin-bottom: 10px;
+        font-weight: 300;
+    }
+
+    .plan-price span{
+        font-size: 60%;
+        font-weight: 300;
+    }
+
+    .plan-price-meal {
+        text-align: center;  
+    }
+
+    .plan-box ul li {
+        padding-left: 50px;
+    }
 }
 
 
