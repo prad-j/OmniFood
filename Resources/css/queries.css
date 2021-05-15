@@ -242,6 +242,40 @@
     .plan-box ul li {
         padding-left: 50px;
     }
+
+    .form-label{
+        padding-left: 150px;
+    }
+
+    .form-find {
+        padding-left: 100px;
+    }
+
+    .form-newsletter {
+        padding-left: 120px;
+    }
+
+    .cbox {
+        margin-left: 110px;
+    }
+
+    .drop-line {
+        padding-left: 110px;
+    }
+
+    .button-sub {
+        padding-left: 100px;
+    }
+
+    .footer-nav {
+        padding-left: 45px;
+    }
+    
+    .social-links {
+        padding-right: 130px;
+        font-size: 150%;
+    }
+
 }
 
 
